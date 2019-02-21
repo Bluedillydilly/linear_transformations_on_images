@@ -1,0 +1,6 @@
+- values of interest for wi + vj:
+(w,v)   = (2,2)
+        = (2.1)    
+
+- patterns might be due to some sort representation of parameter equations
+- need to check values and different formulas
