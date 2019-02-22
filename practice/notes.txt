@@ -2,5 +2,7 @@
 (w,v)   = (2,2)
         = (2.1)    
 
+(SIZE-i)**2 * (SIZE-j)**2
+
 - patterns might be due to some sort representation of parameter equations
 - need to check values and different formulas
