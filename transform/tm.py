@@ -6,12 +6,12 @@ from PIL import Image
 SIZE = 512
 
 def n_array():
-    start = ones((SIZE, SIZE, 3))
-    for x in range(SIZE):
-        for y in range(SIZE):
+    start = ones((int(SIZE/2), int(SIZE/2), 3))
+    for x in range(SIZE, int(SIZE/2)):
+        for y in range(int(SIZE/2), SIZE):
             t = x**2+y**2
             g = (y**.5)/(x+1)
-            start[x][y] = ones(3)*( t*g,  t*g, t*g)
+            start[x-int(SIZE/2)][y-int(SIZE/2)] = ones(3)*( t*g,  t*g, t*g)
     return start.astype(uint8)
 
 def main():
